@@ -1,6 +1,43 @@
-h1,h2,h3,h4,h5,h6, body, p {
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
   font-family: -apple-system, BlinkMacSystemFont,
       "Segoe UI", "Roboto", "Oxygen",
       "Ubuntu", "Cantarell", "Fira Sans",
       "Droid Sans", "Helvetica Neue", sans-serif;
   }
+
+.cabecera {
+  display:flex;
+  background-color: #279989;
+  color:white;  
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.menu-cabecera{
+  display:flex;
+}
+
+.menu-cabecera a{
+  margin-left: 20px;
+}
+
+.segundacabecera{
+  background-color: #5FA789;
+  color: white;
+}
+
+.articulo {
+  background-color: #ffc845;
+} 
+
+.lista {
+  background-color: #ffc845;
+  margin: 0;
+  padding: 0;
+} 
