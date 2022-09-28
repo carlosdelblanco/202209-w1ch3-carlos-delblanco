@@ -19,6 +19,18 @@ html {
   padding: 0 20px;
 }
 
+.linea-vertical{
+  border-right: 1px #ff00;
+}
+
+.articulo div{
+  background-color: green;
+}
+.total-compra{
+  display: flex;
+  justify-content: flex-end;
+  background-color: #ffc845;
+}
 .menu-cabecera{
   display:flex;
 }
@@ -28,6 +40,8 @@ html {
 }
 
 .segundacabecera{
+  display:flex;
+  justify-content: space-between;
   background-color: #5FA789;
   color: white;
 }
@@ -37,7 +51,30 @@ html {
 } 
 
 .lista {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: #ffc845;
   margin: 0;
   padding: 0;
 } 
+
+.lista div{
+  display: flex;
+  
+}
+
+ul{
+  list-style-type: none;
+}
+.articulo > section[boton-anadir]{
+  background-color: green;
+}
+
+.boton-menos{
+
+}
+
+.boton-mas{
+
+}
