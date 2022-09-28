@@ -6,20 +6,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formulario</title>
   <link rel="icon" href="/images/trolley.jpeg" type="image/x-icon">
+  <link type="text/css" href="/styles/style.css" rel="stylesheet">
 </head>
 
 <body>
-  <header>
-    <h1>Lista de la compra</h1> 
-    <a href="index.html"><h2>Principal</h2></a>
-    <a href="form.html"><h2>Lista</h2></a>
-    <h2>Acerca de</h2>
+  <header class="cabecera">
+    <div><h1>Lista de la compra</h1> 
+      <a href="index.html"><h2>Principal</h2></a>
+      <a href="form.html"><h2>Lista</h2></a>
+      <h2>Acerca de</h2></div>
   </header>
-  <section>
-    <h2>-</h2>
+  <section class="segundacabecera">
+  <i class="fa-solid fa-minus">-</i>
   <h2>2/3 Comprados</h2>
   </section>
-  <section>
+  <section class="articulo">
    <form action="" method="get" class="form">
     <h2>Añadir articulo</h2>
     <section>
@@ -28,7 +29,7 @@
     </section>
     <section>
       <label for="Precio">Precio</label>
-      <input type="text" name="precio" id="precio" required></input>
+      <input type="text" name="precio" id="precio" required>€</input>
       </section>
    </form>
   </form>
