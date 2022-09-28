@@ -13,47 +13,61 @@
 <body>
   <header class="cabecera">
   
-    <h1>Lista de la compra</h1> 
-   <div class="menu-cabecera"> <a href="index.html"><h2>Principal</h2></a>
+   <div style="font-size: 30px">Lista de la compra</div> 
+   <div style="font-size: 10px" class="menu-cabecera"> 
+    <a href="index.html"><h2>Principal</h2></a>
     <a href="form.html"><h2>Lista</h2></a>
     <a href=""><h2>Acerca de</h2></a>
   </div>
  
   </header>
   <section class="segundacabecera">
-    <i class="fa-solid fa-plus"></i>
-  <h2>2/3 Comprados</h2>
+    <i class="boton-mas">+</i>
+    <h2>2/3 Comprados</h2>
   </section>
-  <section class="lista">
+  <div class="lista">
     <div>
     <ol>
-      <div>
+      <li>
         <input type="checkbox" id="item1" name="item1" value="Pan">
         <label for="item1" style="text-decoration: line-through;">Pan</label>
-      </div>
-      <div>
+      </li>
+      <li>
         <input type="checkbox" id="item2" name="item2" value="Azucar">
         <label for="item1">Azucar</label>
-      </div>
-      <div>
+      </li>
+      <li>
         <input type="checkbox" id="item3" name="item3" value="Leche">
         <label for="item1" style="text-decoration: line-through;">Leche</label>
-      </div>
-      <div>
+      </li>
+      <li>
         <input type="checkbox" id="item4" name="item4" value="Tofu">
         <label for="item1">Tofu</label>
-      </div>
+      </li>
     </ol>
   </div>
-<div>
-    <ol>
-      <div>0.75</div>
-      <div></div>
-      <div>1.20</div>
-      <div>4.35</div>
-    </ol>
+  <div>
+      <ul>
+        <li>
+        <i>0.75</i>
+        </li>
+        <li>
+        <i> _</i>
+      </li>
+      <li>
+        <i>1.20</i>
+      </li>
+      <li>
+        <i>4.35</i>
+      </li>
+      </ul>
+  </div>
 </div>
-
-  </section>
+<div class="linea-vertical">
+  <hr/>
+</div>
+<div class="total-compra">
+  <i>6.3€</i>
+</div>
 </body>
 </html>
